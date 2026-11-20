@@ -94,6 +94,7 @@ public class FoulCreature : MonoBehaviour
         if (deathParticles) Instantiate(deathParticles, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
         onDespawn.Invoke();
+        Destroy(gameObject);
     }
 
     void OnTriggerStay2D(Collider2D other)

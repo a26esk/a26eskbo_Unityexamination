@@ -3636,7 +3636,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   counterText: {fileID: 735420277}
-  foulCreatureContainer: {fileID: 735420275}
+  foulCreatureContainer: {fileID: 1722353993}
 --- !u!4 &440146213
 Transform:
   m_ObjectHideFlags: 0
@@ -10438,6 +10438,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4767627089397454425, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
   m_PrefabInstance: {fileID: 4413652130994659351}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506268354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+  m_PrefabInstance: {fileID: 4413652130994659351}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299835faa2035fb4ebe840534508c600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FoulCreature
 --- !u!1 &1593018524
 GameObject:
   m_ObjectHideFlags: 0
@@ -10616,6 +10627,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1506268354}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDied
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FoulCreature, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847530925719786961, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
+      propertyPath: onDespawn.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7733753728580019331, guid: cd8cee3133cdb5b4ca7c49a35a27cf8b, type: 3}
       propertyPath: m_Name
       value: FoulCreature
@@ -10788,11 +10827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5543904874999041380, guid: 2866ca26f478c744d887d509e1dede2d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.01
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 5543904874999041380, guid: 2866ca26f478c744d887d509e1dede2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.38
+      value: -1.73
       objectReference: {fileID: 0}
     - target: {fileID: 5543904874999041380, guid: 2866ca26f478c744d887d509e1dede2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10840,7 +10879,7 @@ PrefabInstance:
       objectReference: {fileID: 1136277523}
     - target: {fileID: 6767876683772217189, guid: 2866ca26f478c744d887d509e1dede2d, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6767876683772217189, guid: 2866ca26f478c744d887d509e1dede2d, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
