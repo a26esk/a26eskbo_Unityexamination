@@ -380,4 +380,4 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   despawnAfterTime: 2
-  deathParticles: {fileID: 0}
+  deathParticles: {fileID: 736433216425672893, guid: a0e283c6ab549394c957b4125f84f4f6, type: 3}
